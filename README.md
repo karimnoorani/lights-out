@@ -1,1 +1,2 @@
-# lights-out
+# Lights Out
+React <a href="https://lightsout.playcode.io/">game</a> that lets users turn on/off light panels until all the lights are "out." Utilizes React states, props, matrix computations, parent/child components, conditional rendering, web accessibility, and performance optimizations. Game keeps track of the number moves made by the player to keep a running score. Integrated with React Confetti to create an effect when the game is won. Players can restart the game to get a new grid and reset their move count.
