@@ -1,0 +1,58 @@
+body{
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.board > button{
+  width: 70px;
+  height: 70px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.lightOff{
+  background-color: #374151;
+}
+
+.lightOn{
+  background-color: #FACC14;
+}
+
+#resetGameButton{
+  width: 120px;
+  height: 50px;
+  background-color: #3C82F6;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 0;
+}
+
+header > h1 {
+  margin-bottom: 0px;
+}
+
+header > p {
+  margin-top: 15px;
+  font-size: 20px;
+}
